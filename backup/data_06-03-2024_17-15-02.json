@@ -1,0 +1,13 @@
+{
+    "creation_time": "06-03-2024_17-15-02",
+    "CPU Usage": 1.0,
+    "Total Memory": 4102373376.0,
+    "Used Memory": 2731446272.0,
+    "Memory Usage": 73.9,
+    "Total Disk": 12040970240.0,
+    "Used Disk": 6827380736.0,
+    "Disk Usage": 59.9,
+    "Number of Processes": 146,
+    "Number of Users": 2,
+    "Last CERT alert": "CERTFR-2024-ALE-005 : [M\u00e0J] Vuln\u00e9rabilit\u00e9 dans Microsoft Outlook (15 f\u00e9vrier 2024)"
+}

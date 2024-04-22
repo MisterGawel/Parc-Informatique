@@ -1,0 +1,13 @@
+{
+    "creation_time": "05-03-2024_23-30-02",
+    "CPU Usage": 0.0,
+    "Total Memory": 4102373376.0,
+    "Used Memory": 2097274880.0,
+    "Memory Usage": 58.1,
+    "Total Disk Space": 12040970240.0,
+    "Used Disk Space": 6823247872.0,
+    "Disk Usage": 59.8,
+    "Number of Processes": 133,
+    "Number of Users": 2,
+    "Last CERT alert": "11 janvier 2024\nCERTFR-2024-ALE-001\n[M\u00e0J] Multiples vuln\u00e9rabilit\u00e9s dans Ivanti Connect Secure et Policy Secure Gateways\n\nAlerte en cours"
+}
