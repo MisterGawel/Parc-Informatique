@@ -1,27 +1,42 @@
-# Connect-Four
-This is a C++ implementation of the classic Connect Four game. The game features a console-based interface and allows players to compete against each other or against an AI opponent.
+# IT Infrastructure Monitoring Platform
 
-## How to Compile and Run
-To compile the code, you need to have a C++ compiler installed on your system, such as g++. From the terminal, navigate to the directory containing the source code files (puissance4.cpp and puissance4.h) and execute the following command:
+The goal of this project is to develop a software platform for monitoring an IT infrastructure. Once installed, this platform will enable system administrators to quickly retrieve detailed status reports of all servers within the infrastructure and the latest alerts from C.E.R.T. (http://www.cert.ssi.gouv.fr/). The software will also provide email notifications in case of critical situations. Examples of critical situations include when a server has been unresponsive for more than 30 minutes, when a hard disk reaches 100% capacity, or when RAM usage hits 100%, among others.
 
-```bash
-g++ -o puissance4.exe puissance4.cpp
-````
-This will compile the code and generate an executable file named puissance4.exe. You can then run the executable to start the game:
-```bash
-./puissance4.exe
-````
+This project will be implemented using BASH and Python, and the proportion of each language in the project is left to your discretion. You can leverage the entire Python standard library and all default binaries installed on an Ubuntu server distribution. Additional Python and BASH libraries can be used if mentioned in the project guidelines or with explicit approval from your supervisor. We will maintain an official list of permissible libraries on the course forum on e-uapv.
 
-## How to Play
-Before starting the game of Connect Four, you'll need to input a height (not exceeding 10), which will determine the complexity of the algorithm. The higher the height, the more trained and challenging the AI will be to beat.
-The game follows the standard rules of Connect Four. Players take turns dropping colored discs into a grid. The discs fall straight down, occupying the lowest available space within the chosen column. The objective is to be the first to form a horizontal, vertical, or diagonal line of four discs of your color.
-To select a column to drop your disc, enter the column number when prompted.
-The game will alternate between players, and the AI opponent will automatically make its move.
+## Features
+
+Server Monitoring: Retrieve detailed status information about all servers in the IT infrastructure.
+Alerts Integration: Fetch and display the latest alerts from C.E.R.T.
+Email Notifications: Send email alerts in case of critical incidents (e.g., server unresponsiveness, disk space, RAM usage).
+Customizable Alerts: Define custom rules for triggering alerts based on specific conditions.
+Automated Reporting: Generate periodic reports summarizing the health and performance of the IT infrastructure.
+
+## Usage
+
+To use this monitoring platform, follow these steps:
+
+1. Installation:
+   Clone the repository to your server.
+   Ensure that Python and BASH are installed.
+2. Configuration:
+   Configure the monitoring settings.
+3. Execution:
+   Run the main monitoring script (collecte.sh) using BASH.
 
 ## Screenshot
 
-![Connect Four](game.png)
+![Platform](image.png)
 
-### Have fun playing Connect Four!
+## Dependencies
 
-Feel free to customize and extend the code as needed. If you encounter any issues or have suggestions for improvements, please don't hesitate to open an issue on GitHub. Contributions are welcome!
+The project relies on the following technologies:
+
+Python 3.x
+BASH scripting
+Standard Ubuntu server binaries and libraries
+Additional Python libraries beyond the standard ones may be used based on project guidelines.
+
+## Contributing
+
+Feel free to contribute to this project by suggesting improvements, reporting issues, or submitting pull requests. Contributions are welcomed and encouraged!
